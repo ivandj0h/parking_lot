@@ -1,5 +1,5 @@
 let expect = require("chai").expect;
-let parkingLot = require("../parkingLot");
+let parkingLot = require("../parkinglot");
 
 describe("leave 4", async function () {
   it("should free slot no 4", async function () {
