@@ -33,6 +33,7 @@ let park = async (registratonNo, color) => {
     return `Allocated slot number: ${slot}`;
   }
 };
+
 let leave = async (slot) => {
   slot = parseInt(slot);
   if (maxSize === 0) {
@@ -119,6 +120,23 @@ let getSlotNumbersFromColor = async (color) => {
       }
     }
     return finalResponse;
+  } else {
+    return `Not found`;
+  }
+};
+
+let getSlotNumberFromRegNo = async (registratonNo) => {
+  if (maxSize === 0) {
+    return "parking lot is not initiated";
+  } else if (Car.length > 0) {
+    let resultSet;
+    Car.forEach(function (row) {
+      if (row.registratonNo === registratonNo) {
+        resultSet = row.slot;
+      }
+    });
+    if (resultSet === undefined) return `Not found`;
+    return resultSet;
   } else {
     return `Not found`;
   }
