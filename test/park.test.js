@@ -1,5 +1,5 @@
 let expect = require("chai").expect;
-let parkingLot = require("../parkingLot");
+let parkingLot = require("../parkinglot");
 
 describe("park KA-01-HH-1234 White", async function () {
   it("should park the car", async function () {
