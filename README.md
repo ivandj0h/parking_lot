@@ -92,6 +92,10 @@ I don't use many dependencies for this Project, i just use 2 dependencies such a
 
 Those two dependencies are used to do testing, just it, nothing more.
 
+## Captured
+
+![Dashboard](images/captured.gif "This is the results of The Project")
+
 ## Credit
 
 <a href="https://linkedin.com/in/ivandjoh" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ivandjoh" height="15" width="20" /></a>
